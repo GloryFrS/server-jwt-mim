@@ -1,0 +1,17 @@
+{
+    "app": {
+      "server": {
+        "host": "localhost",
+        "port": 8080,
+        "secret": "mysecretsshhh"
+      },
+      "dbConfig": {
+        "url": "mongodb+srv://dbUser:pacman3r@cluster0-p7gny.mongodb.net/test?retryWrites=true&w=majority",
+        "options": { "useNewUrlParser": true }
+      },
+      "credit": {
+        "initialLimit": 100,
+        "initialDays": 1
+      }
+    }
+  }
